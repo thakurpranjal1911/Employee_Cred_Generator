@@ -27,23 +27,23 @@ public class MainClass {
 		        break;
 		        
 		case 2: emp.setDepartment("Admin");
-                break;
+                        break;
         
 		case 3: emp.setDepartment("HR");
-                break;
+                        break;
         
 		case 4: emp.setDepartment("Legal");
-                break;
+                        break;
                 
-        default: System.out.println("Please Select a valid choice");
-                 break;
+                default: System.out.println("Please Select a valid choice");
+                         break;
 		
 		}
 	    
 		//Calling CredentialServices methods
 		service.generateEmail(emp);
-        service.generatePassword(emp);
-	    service.showCredentials(emp);
+                service.generatePassword(emp);
+	        service.showCredentials(emp);
 	    
 		scan.close();
 	}
