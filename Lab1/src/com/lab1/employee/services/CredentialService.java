@@ -21,14 +21,14 @@ public class CredentialService implements EmployeeService{
 	}
 
 	
-	
-    //Method to generate password as per specified criteria: It should contain Uppercase, lowercase, numbers and special characters
-    public final int length = 8;
+
+	//Method to generate password as per specified criteria: It should contain Uppercase, lowercase, numbers and special characters
+        public final int length = 8;
 	
 	@Override
 	public void generatePassword(EmployeeDetails EmpDetails) {
 		
-		String capitalCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	    String capitalCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	    String lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
 	    String specialCharacters = "!@#$";
 	    String numbers = "1234567890";
@@ -48,7 +48,6 @@ public class CredentialService implements EmployeeService{
 		EmpDetails.setPassword(password);
 		
 	}
-	
 	
 	
 	
