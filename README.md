@@ -1,5 +1,4 @@
-# G3_DSA_GradedProject2
+Java project to implement concept of DSA
 
-Lab 1 under DSA Week2
-
+About the project:
 Basic application to generate employee email and password based on their department.
